@@ -6,6 +6,21 @@
 Mem:           1.6Gi       323Mi       1.1Gi       1.1Mi       370Mi       1.3Gi
 Swap:          2.0Gi          0B       2.0Gi
 
+--------------------------------------df -h-----------------------------------------
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              329M  1.1M  328M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  5.6G  5.2G  52% /
+tmpfs                              822M     0  822M   0% /dev/shm
+none                               1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs                              822M     0  822M   0% /tmp
+none                               1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/sda2                          2.0G  183M  1.7G  11% /boot
+/dev/sdb1                          9.8G  2.1M  9.3G   1% /mnt/datadisk
+/dev/mapper/vg_storage-lv_data     2.9G  536K  2.8G   1% /mnt/lvm_data
+none                               1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+none                               1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs                              165M  8.0K  165M   1% /run/user/1000
+
 ---------------------------vmstat 1 5-----------------------------------------------
 
 procs -----------memory---------- ---swap-- -----io---- -system-- -------cpu-------
