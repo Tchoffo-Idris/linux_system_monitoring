@@ -1,0 +1,4 @@
+[2026-10-07T21:07:11] ALERT: CPU at 8.0% (threshold 1.0%). Top process: sshd-session
+[2026-10-07T21:07:11] ALERT: Memory at 24.1% (threshold 1.0%)
+[2026-10-07T21:07:11] ALERT: Disk / at 52.0% (threshold 1.0%)
+[2026-10-07T21:07:11] ALERT: Disk /boot at 10.0% (threshold 1.0%)
